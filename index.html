@@ -10,60 +10,17 @@
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="custom.css">
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <style>
-        #landing {
-            display: table;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient( rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0.4)),
-            url('nyc.jpg') no-repeat center;
-            background-size: cover;
-            padding: 100px;
-        }
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
-        h1 {
-            text-align: center;
-            color: white;
-            font-size: 100px;
-        }
-
-        h2 {
-            color: white;
-            text-align: center;
-        }
-
-        div.gallery {
-            margin: 5px;
-            border: 1px solid #ccc;
-            float: left;
-            width: 180px;
-        }
-
-        div.gallery:hover {
-            border: 1px solid #777;
-        }
-
-        div.gallery img {
-            width: 100%;
-            height: auto;
-        }
-
-        div.view {
-            padding: 15px;
-            text-align: center;
-        }
-    </style>
-
+    </script>
 </head>
 
 <body>
 
     <nav class="navbar navbar-default navbar-fixed-top">
-
         <div class="container-fluid">
             <div class="navbar-header">
                 <!--dropdown button on right-->
@@ -109,36 +66,52 @@
                 <h2>Welcome to New York City, the place that never sleeps ! Come on a tour and witness all the beauties this city has to offer. Don’t miss out
                 </h2>
             </div>
-            </div>
-            <header id= gallery>
-                <div class="gallery">
-                    <a target="_blank" href="tree.jpg">
+        </div>
+        <header id=gallery>
+            <div class="gallery">
+                <a target="_blank" href="tree.jpg">
     <img src="tree.jpg" alt="Christmas Tree" width="600" height="400">
   </a>
-                    <div class="view">Add a description of the image here</div>
-                </div>
+                <div class="view">Add a description of the image here</div>
+            </div>
 
-                <div class="gallery">
-                    <a target="_blank" href="timesquare.jpg">
+            <div class="gallery">
+                <a target="_blank" href="timesquare.jpg">
     <img src="timesquare.jpg" alt="TimeSquare" width="600" height="400">
   </a>
-                    <div class="view">Add a description of the image here</div>
-                </div>
+                <div class="view">Add a description of the image here</div>
+            </div>
 
-                <div class="gallery">
-                    <a target="_blank" href="central.jpg">
+            <div class="gallery">
+                <a target="_blank" href="central.jpg">
     <img src="central.jpg" alt="Central Park" width="600" height="400">
   </a>
-                    <div class="view">Add a description of the image here</div>
-                </div>
+                <div class="view">Add a description of the image here</div>
+            </div>
 
-                <div class="gallery">
-                    <a target="_blank" href="central.png">
+            <div class="gallery">
+                <a target="_blank" href="central.png">
     <img src="central1.png" alt="Bridge" width="600" height="400">
   </a>
-                    <div class="Bridge">Add a description of the image here</div>
-                </div>
-            </header>
+                <div class="Bridge">Add a description of the image here</div>
+            </div>
+    </div>
+    </header>
+    <header id="calender">
+        <h2>Pick a date to choose your tour </h2>
+        <div id="calendar">
+            <input type="date" name="Tour Date">
+            <input type="submit">
+        </div>
+    </header>
+    <div class="transportation">
+        <h2> Transporatation</h2>
+        <p>There are multiple ways for you to get around, based on what you use</p>
+        <li> You’ll be getting around in a tour bus that will show you the exciting events happening around New York City
+        </li>
+        <li>if you want you, we will be able to take you in a ferry to visit the Statue of Liberty or Governors island </li>
+        <li>In the meantime you’ll get a better tour if you went private</li>
+    </div>
 </body>
 
 </html>

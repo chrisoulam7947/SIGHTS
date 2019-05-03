@@ -1,26 +1,104 @@
 #landing {
-     display: table;
-     width: 100%;
-     height: 100%;
-     background: linear-gradient( rgba(0, 0, 0, 0),
-     rgba(0, 0, 0, 0.7)),
-     url('nyc.jpg') no-repeat center;
-     background-size: cover;
-     padding: 100px;
- }
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.4)),
+    url('nyc.jpg') no-repeat center;
+    background-size: cover;
+    padding: 100px;
+}
 
 h1 {
-     text-align: center;
-     color: white;
-     font-size: 100px;
- }
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin-left: 0px;
+    margin-right: 10px;
+    height: 100px;
+    position: relative;
+    animation-name: sights;
+    animation-duration: 5s;
+    animation-name: sights;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes sights{
+    0% {
+        left: 0px;
+        top: 0px
+    }
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 200px;
+        top: 0px;
+    }
+}
+
+@keyframes sights{
+    0% {
+        left: 0px;
+        top: 0px
+    }
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 200px;
+        top: 0px;
+    }
+}
 
 h2 {
-     color: white;
-     text-align: center;
- }
+    color: gray;
+    text-align: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.view {
+    padding: 15px;
+    text-align: center;
+}
 
 .jumbotron {
-     color: black;
- }
- 
+    color: black;
+}
+
+.calender {
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
