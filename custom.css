@@ -1,5 +1,5 @@
 body {
-    background-color: #F1E9FF  
+    background-color: #F1E9FF
 }
 
 #landing {
@@ -108,4 +108,10 @@ li {
 #gallery {
     text-align: center;
     padding: 0px 25px 25px;
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: black;
 }
