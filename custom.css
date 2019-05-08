@@ -1,5 +1,5 @@
-body{
-    
+body {
+    background-color: #F1E9FF  
 }
 
 #landing {
@@ -27,7 +27,7 @@ h1 {
     animation-duration: 5s;
     animation-iteration-count: 1;
     -webkit-animation-timing-function: ease-in-out;
-font-family: 'Leckerli One', cursive;
+    font-family: 'Leckerli One', cursive;
 }
 
 @keyframes sights {
@@ -38,12 +38,12 @@ font-family: 'Leckerli One', cursive;
     }
     25% {
         left: 0px;
-       /* right: 700px;*/
+        /* right: 700px;*/
         top: 0px;
     }
     50% {
         left: 0px;
-       /*right: 700px;*/
+        /*right: 700px;*/
         top: 0px;
     }
     100% {
@@ -63,10 +63,12 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 250px;
+    background-color: white;
 }
 
 div.gallery:hover {
     border: 1px solid #777;
+    background-color: white;
 }
 
 div.gallery img {
