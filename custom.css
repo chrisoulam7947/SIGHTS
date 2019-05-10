@@ -64,6 +64,7 @@ div.gallery {
     float: left;
     width: 250px;
     background-color: white;
+
 }
 
 div.gallery:hover {
@@ -107,7 +108,7 @@ li {
 
 #gallery {
     text-align: center;
-    padding: 0px 25px 25px;
+    padding: 0px 400px 100px;
 }
 
 h3 {
@@ -115,4 +116,30 @@ h3 {
     text-align: center;
     color: black;
     font-family: 'Cinzel', serif;
+}
+
+.col-sm-12col-sm-10 {
+    font-size: 20px;
+    padding: 0px 0px 80px;
+    text-align: center;
+
+}
+
+.text-vertical{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: Black;
+    padding: 0px 80px;
+}
+.col-sm-10{
+    text-align: center;
+}
+#transportation{
+    padding: 0px 80px;
+}
+#comments{
+        font-size: 20px;
+    text-align: center;
+    padding: 0px 80px;
 }
