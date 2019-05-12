@@ -157,3 +157,10 @@ h4{
     text-align: center;
     padding: 0px 80px;
 }
+td{
+       font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Cinzel', serif;
+    font-family: 'Stylish', sans-serif;
+}
