@@ -86,7 +86,7 @@ div.view {
 }
 
 .jumbotron {
-    background-color:white;
+    background-color: white;
     font-family: 'Stylish', sans-serif;
 }
 
@@ -114,12 +114,10 @@ li {
 
 #gallery {
     text-align: center;
-<<<<<<< HEAD
-    padding: 0px 25px 25px;
+    <<<<<<< HEAD padding: 0px 25px 25px;
     font-family: 'Stylish', sans-serif;
-=======
-    padding: 0px 400px 100px;
->>>>>>> 068768b9891913df99e2e6c984770830f4d85151
+    =======padding: 0px 400px 100px;
+    >>>>>>>068768b9891913df99e2e6c984770830f4d85151
 }
 
 h3 {
@@ -137,21 +135,24 @@ h3 {
 
 }
 
-.text-vertical{
+.text-vertical {
     text-align: center;
     vertical-align: middle;
     display: table-cell;
     color: Black;
     padding: 0px 80px;
 }
-.col-sm-10{
+
+.col-sm-10 {
     text-align: center;
 }
-#transportation{
+
+#transportation {
     padding: 0px 80px;
 }
-#comments{
-        font-size: 20px;
+
+#comments {
+    font-size: 20px;
     text-align: center;
     padding: 0px 80px;
 }
