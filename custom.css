@@ -114,12 +114,8 @@ li {
 
 #gallery {
     text-align: center;
-<<<<<<< HEAD
     padding: 0px 25px 25px;
     font-family: 'Stylish', sans-serif;
-=======
-    padding: 0px 400px 100px;
->>>>>>> 068768b9891913df99e2e6c984770830f4d85151
 }
 
 h3 {
@@ -129,7 +125,13 @@ h3 {
     font-family: 'Cinzel', serif;
     font-family: 'Stylish', sans-serif;
 }
-
+h4{
+       font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-family: 'Stylish', sans-serif;
+}
 .col-sm-12col-sm-10 {
     font-size: 20px;
     padding: 0px 0px 80px;
